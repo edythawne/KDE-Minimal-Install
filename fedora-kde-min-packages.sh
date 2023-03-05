@@ -22,7 +22,6 @@ dnf install \
   gnome-keyring-pam \
   kcm_systemd \
   kde-gtk-config \
-  kde-partitionmanager \
   kde-print-manager \
   kde-settings-pulseaudio \
   kde-style-breeze \
@@ -40,7 +39,6 @@ dnf install \
   kscreen \
   kscreenlocker \
   ksshaskpass \
-  ksysguard \
   kwalletmanager5 \
   kwebkitpart \
   kwin \
@@ -48,6 +46,7 @@ dnf install \
   pam-kwallet \
   phonon-qt5-backend-gstreamer \
   pinentry-qt \
+  plasma-systemmonitor \
   plasma-breeze \
   plasma-desktop \
   plasma-desktop-doc \
@@ -62,7 +61,6 @@ dnf install \
   plasma-pa \
   plasma-user-manager \
   plasma-workspace \
-  plasma-workspace-geolocation \
   polkit-kde \
   qt5-qtbase-gui \
   qt5-qtdeclarative \
@@ -71,4 +69,6 @@ dnf install \
   sddm-kcm \
   setroubleshoot \
   sni-qt \
-  xorg-x11-drv-libinput
+  xorg-x11-drv-libinput \ 
+  firefox \
+  firefox-langpacks
