@@ -66,5 +66,3 @@ dnf install \
   xorg-x11-drv-libinput \ 
   firefox \
   firefox-langpacks
-
-
