@@ -52,12 +52,6 @@ dnf install \
   plasma-desktop-doc \
   plasma-drkonqi \
   plasma-nm \
-  plasma-nm-l2tp \
-  plasma-nm-openconnect \
-  plasma-nm-openswan \
-  plasma-nm-openvpn \
-  plasma-nm-pptp \
-  plasma-nm-vpnc \
   plasma-pa \
   plasma-user-manager \
   plasma-workspace \
