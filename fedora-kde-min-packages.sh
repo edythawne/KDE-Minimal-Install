@@ -66,3 +66,8 @@ dnf install \
   xorg-x11-drv-libinput \ 
   firefox \
   firefox-langpacks
+
+
+systemctl enable sddm
+systemctl set-default graphical.target
+reboot
