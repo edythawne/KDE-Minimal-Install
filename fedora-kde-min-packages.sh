@@ -68,6 +68,3 @@ dnf install \
   firefox-langpacks
 
 
-#systemctl enable sddm
-#systemctl set-default graphical.target
-#reboot
