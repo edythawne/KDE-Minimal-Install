@@ -5,6 +5,13 @@ if ! [ $(id -u) = 0 ]; then
   exit 1
 fi
 
+# Instalacion de SSDM
+dnf install sddm sddm-breeze sddm-kcm
+
+# Habilitar SDDM
+sudo systemctl enable sddm
+sudo systemctl set-default graphical.target
+
 # Install KDE Packages
 dnf install \
   @"base-x" \
@@ -58,9 +65,6 @@ dnf install \
   polkit-kde \
   qt5-qtbase-gui \
   qt5-qtdeclarative \
-  sddm \
-  sddm-breeze \
-  sddm-kcm \
   setroubleshoot \
   sni-qt \
   xorg-x11-drv-libinput \
