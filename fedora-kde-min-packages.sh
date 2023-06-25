@@ -63,6 +63,6 @@ dnf install \
   sddm-kcm \
   setroubleshoot \
   sni-qt \
-  xorg-x11-drv-libinput \ 
+  xorg-x11-drv-libinput \
   firefox \
   firefox-langpacks
