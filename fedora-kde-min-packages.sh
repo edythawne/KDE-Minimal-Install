@@ -36,10 +36,6 @@ dnf install \
   kdeplasma-addons \
   kdialog \
   kdnssd \
-  kf5-akonadi-server \
-  kf5-akonadi-server-mysql \
-  kf5-baloo-file \
-  kf5-kipi-plugins \
   khotkeys \
   kmenuedit \
   konsole5 \
