@@ -23,13 +23,11 @@ dnf install \
   breeze-icon-theme \
   cagibi \
   colord-kde \
-  cups-pk-helper \
   dolphin \
   glibc-all-langpacks \
   gnome-keyring-pam \
   kcm_systemd \
   kde-gtk-config \
-  kde-print-manager \
   kde-settings-pulseaudio \
   kde-style-breeze \
   kdegraphics-thumbnailers \
