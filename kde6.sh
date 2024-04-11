@@ -14,7 +14,6 @@ colord-kde \
 dolphin \
 glibc-all-langpacks \
 gnome-keyring-pam \
-intel-media-driver \
 libva-utils libvdpau-va-gl \
 kde-gtk-config \
 kde-partitionmanager \
@@ -23,10 +22,8 @@ kdegraphics-thumbnailers \
 kdeplasma-addons \
 kdialog \
 kdnssd \
-kf5-baloo-file \
 kf5-kipi-plugins \
 kf5-kwayland \
-khotkeys \
 kmenuedit \
 konsole \
 kscreen \
