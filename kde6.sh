@@ -60,7 +60,7 @@ sni-qt \
 vulkan \
 wayland-utils \
 xorg-x11-server-Xwayland \
-xwaylandvideobridge
+xwaylandvideobridge \
 iwlwifi-mvm-firmware
 
 
