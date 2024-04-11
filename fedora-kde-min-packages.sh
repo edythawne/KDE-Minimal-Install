@@ -36,7 +36,7 @@ dnf install \
   kdnssd \
   khotkeys \
   kmenuedit \
-  konsole5 \
+  konsole \
   kscreen \
   kscreenlocker \
   ksshaskpass \
