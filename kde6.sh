@@ -1,8 +1,11 @@
 #!/bin/env bash
 
 echo "Installing the needed packages."
-sudo dnf install -y --setopt=install_weak_deps=False\
-@"Hardware Support" @Fonts\
+dnf install \
+  @"base-x" \
+  @"Common NetworkManager Submodules" \
+  @"Fonts" \
+  @"Hardware Support" \
 ark \
 bluedevil \
 breeze-gtk \
