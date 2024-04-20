@@ -58,7 +58,9 @@ dnf install \
   wayland-utils \
   xorg-x11-server-Xwayland \
   xwaylandvideobridge \
-  iwlwifi-mvm-firmware
+  iwlwifi-mvm-firmware \
+  alsa-sof-firmware \
+  alsa-utils
 
 
   echo "blacklist nouveau" > /etc/modprobe.d/denylist.conf
