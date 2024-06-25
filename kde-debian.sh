@@ -8,64 +8,68 @@ sudo apt upgrade -y
 PACKAGES=(
     # Apps
     ark
+    unzip
     dolphin
     gwenview
-    kde-spectacle
-    kmenuedit
-    konsole
     okular
     qml-module-org-kde-newstuff
     systemsettings
 
     # Services
+    upower
     bluedevil
-    khotkeys
-    kscreen
-    kwalletmanager
-    plasma-nm
-    plasma-pa
     powerdevil
     polkit-kde-agent-1
-    upower
 
     # DE
+    khotkeys
+    kscreen
+    kdialog
+    kwalletmanager
     kwin-x11
     kwin-wayland
-    plasma-desktop
-    plasma-workspace
-    plasma-systemmonitor
-    sddm
-    xorg
-
-    # Theming
-    breeze-gtk-theme
-    kde-config-gtk-style
-    kde-config-gtk-style-previwe
-    sddm-theme-breeze
-
-    # Libs and Plugins
-    libqtspell-qt5-0
-    qtvirtualkeyboard-plugin
+    kinfocenter
+    kde-spectacle
+    kdegraphics-thumbnailers
+    kmenuedit
+    konsole
+    desktop-base
+    plasma-nm
+    plasma-pa
     plasma-browser-integration
     plasma-runners-addons
     plasma-wallpapers-addons
     plasma-widgets-addons
+    plasma-desktop
+    plasma-workspace
+    plasma-systemmonitor
+    plasma-workspace-wallpapers
+    sddm
+    xorg
+    libpam-kwallet5
+
+    # Theming
+    breeze
+    breeze-gtk-theme
+    kde-config-gtk-style
+    kde-config-gtk-style-preview
+    sddm-theme-breeze
+
+    # Libs and Plugins
+    qtvirtualkeyboard-plugin
     xdg-desktop-portal-kde
+    vulkan-tools
+    mesa-utils
+    clinfo
 
     # Ark tooling
-    unzip
-
     xorg
     pipewire
 )
 
 # Instalar los paquetes
 sudo apt install -y -q --no-install-recommends "${PACKAGES[@]}"
-
 sudo apt install -y firefox-esr
-
-#sudo systemctl enable gdm
-#sudo systemctl set-default graphical.target
 
 # Fin del script
 echo "Instalación de KDE"
