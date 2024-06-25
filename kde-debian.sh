@@ -38,6 +38,7 @@ PACKAGES=(
     plasma-pa
     plasma-browser-integration
     plasma-runners-addons
+    plasma-wallpaper
     plasma-wallpapers-addons
     plasma-widgets-addons
     plasma-desktop
