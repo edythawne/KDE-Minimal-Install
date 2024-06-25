@@ -6,52 +6,57 @@ sudo apt upgrade -y
 
 # Lista de paquetes
 PACKAGES=(
-  # Apps
-  ark
-  dolphin
-  gwenview
-  kde-spectacle
-  kmenuedit
-  konsole
-  okular
-  qml-module-org-kde-newstuff
-  systemsettings
+    # Apps
+    ark
+    dolphin
+    gwenview
+    kde-spectacle
+    kmenuedit
+    konsole
+    okular
+    qml-module-org-kde-newstuff
+    systemsettings
 
-  # Services
-  bluedevil
-  khotkeys
-  kscreen
-  kwalletmanager
-  plasma-nm
-  plasma-pa
-  powerdevil
-  polkit-kde-agent-1
-  upower
+    # Services
+    bluedevil
+    khotkeys
+    kscreen
+    kwalletmanager
+    plasma-nm
+    plasma-pa
+    powerdevil
+    polkit-kde-agent-1
+    upower
 
-  # DE
-  kwin-x11
-  kwin-wayland
-  plasma-desktop
-  plasma-workspace
-  sddm
-  xorg
+    # DE
+    kwin-x11
+    kwin-wayland
+    plasma-desktop
+    plasma-workspace
+    plasma-systemmonitor
+    sddm
+    xorg
 
-  # Theming
-  breeze-gtk-theme
-  kde-config-gtk-style
-  kde-config-gtk-style-previwe
-  sddm-theme-breeze
+    # Theming
+    breeze-gtk-theme
+    kde-config-gtk-style
+    kde-config-gtk-style-previwe
+    sddm-theme-breeze
 
-  # Libs and Plugins
-  libqtspell-qt5-0
-  qtvirtualkeyboard-plugin
-  plasma-browser-integration
-  plasma-runners-addons
-  plasma-wallpapers-addons
-  plasma-widgets-addons
+    # Libs and Plugins
+    libqtspell-qt5-0
+    qtvirtualkeyboard-plugin
+    plasma-browser-integration
+    plasma-runners-addons
+    plasma-wallpapers-addons
+    plasma-widgets-addons
+    xdg-desktop-portal-kde
 
-  # Ark tooling
-  unzip
+    # Ark tooling
+    unzip
+
+    xorg
+    pipewire
 )
 
 # Instalar los paquetes
