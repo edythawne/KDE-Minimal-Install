@@ -30,8 +30,6 @@ dnf install \
   gnome-shell \
   gnome-terminal \
   nautilus \
-  gnome-software \
-  gnome-disk-utility \
   gnome-text-editor \
   gnome-tweaks \
   xdg-user-dirs \
