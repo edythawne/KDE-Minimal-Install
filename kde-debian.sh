@@ -10,6 +10,7 @@ PACKAGES=(
     ark
     unzip
     dolphin
+    dolphin-plugins
     gwenview
     okular
     qml-module-org-kde-newstuff
@@ -26,11 +27,12 @@ PACKAGES=(
     kscreen
     kdialog
     kwalletmanager
+    
     kwin-x11
     kwin-wayland
     kinfocenter
     kde-spectacle
-    kdegraphics-thumbnailers
+    kio-extras
     kmenuedit
     konsole
     desktop-base
@@ -45,9 +47,13 @@ PACKAGES=(
     plasma-workspace
     plasma-systemmonitor
     plasma-workspace-wallpapers
+    plasma-workspace-wayland
     sddm
     xorg
     libpam-kwallet5
+    ffmpegthumbs 
+    kdegraphics-thumbnailers 	
+    kimageformat-plugins
 
     # Theming
     breeze
