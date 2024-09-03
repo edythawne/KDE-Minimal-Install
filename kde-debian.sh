@@ -60,6 +60,7 @@ PACKAGES=(
     breeze-gtk-theme
     kde-config-gtk-style
     kde-config-gtk-style-preview
+    kde-config-sddm 
     sddm-theme-breeze
 
     # Libs and Plugins
