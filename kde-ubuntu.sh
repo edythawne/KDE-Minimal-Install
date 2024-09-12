@@ -40,14 +40,13 @@ PACKAGES=(
     plasma-pa
     plasma-browser-integration
     plasma-runners-addons
-    #plasma-wallpaper
     plasma-wallpapers-addons
     plasma-widgets-addons
     plasma-desktop
     plasma-workspace
     plasma-systemmonitor
     plasma-workspace-wallpapers
-    #plasma-workspace-wayland
+    libkf6kcmutils-data
     sddm
     xorg
     libpam-kwallet5
