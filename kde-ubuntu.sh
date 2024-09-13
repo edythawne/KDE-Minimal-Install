@@ -68,6 +68,7 @@ PACKAGES=(
     vulkan-tools
     mesa-utils
     clinfo
+    xdg-desktop-portal-kde
 
     # Ark tooling
     xorg
