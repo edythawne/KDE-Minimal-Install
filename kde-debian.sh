@@ -23,7 +23,7 @@ PACKAGES=(
     polkit-kde-agent-1
 
     # DE
-    khotkeys
+    #khotkeys
     kscreen
     kdialog
     kwalletmanager
@@ -47,7 +47,7 @@ PACKAGES=(
     plasma-workspace
     plasma-systemmonitor
     plasma-workspace-wallpapers
-    plasma-workspace-wayland
+    #plasma-workspace-wayland
     sddm
     xorg
     libpam-kwallet5
@@ -60,7 +60,7 @@ PACKAGES=(
     breeze-gtk-theme
     kde-config-gtk-style
     kde-config-gtk-style-preview
-    kde-config-sddm 
+    #kde-config-sddm 
     sddm-theme-breeze
 
     # Libs and Plugins
