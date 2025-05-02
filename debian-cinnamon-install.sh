@@ -10,6 +10,9 @@ PACKAGES=(
     desktop-base
     slick-greeter
     lightdm
+    blueman
+    bluetooth
+    bluez
 )
 
 # Instalar los paquetes
