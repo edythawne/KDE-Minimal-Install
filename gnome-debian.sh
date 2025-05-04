@@ -46,6 +46,7 @@ PACKAGES=(
     totem
     xdg-desktop-portal-gnome
     gnome-browser-connector
+    desktop-base
 )
 
 # Instalar los paquetes
