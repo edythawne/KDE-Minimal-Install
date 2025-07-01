@@ -23,4 +23,4 @@ sudo systemctl enable lightdm
 sudo systemctl set-default graphical.target
 
 # Fin del script
-echo "Instalación de Budgie Desktop"
+echo "Instalación de Cinnamon Desktop"
