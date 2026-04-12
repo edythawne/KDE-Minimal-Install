@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # DankLinux repository
 curl -fsSL https://download.opensuse.org/repositories/home:AvengeMedia:danklinux/Debian_13/Release.key | \
   sudo gpg --dearmor -o /etc/apt/keyrings/danklinux.gpg
